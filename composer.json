@@ -1,0 +1,31 @@
+{
+    "name": "allenkhoury/user-activity",
+    "description": "Dashboard that will track user activity and online users.",
+    "authors": [
+        {
+            "name": "Allen",
+            "email": "alainkhoury7@gmail.com"
+        }
+    ],
+    "require": {
+        "yajra/laravel-datatables-oracle": "^10.3.1",
+        "pusher/pusher-php-server": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AllenKhoury\\UserActivity\\": "src/"
+        },
+        "files": [
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AllenKhoury\\UserActivity\\Providers\\UserActivityServiceProvider",
+                "AllenKhoury\\UserActivity\\Providers\\BladeServiceProvider",
+                "AllenKhoury\\UserActivity\\Providers\\ViewServiceProvider",
+                "AllenKhoury\\UserActivity\\Providers\\RouteServiceProvider"
+            ]
+        }
+    }
+}

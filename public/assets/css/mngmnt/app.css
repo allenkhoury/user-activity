@@ -1,0 +1,16 @@
+[v-cloak] {
+  display: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.card-title h5 {
+  font-weight: 700;
+}
+
+.active-users {
+  font-size: 52px;
+  font-weight: 900;
+}
